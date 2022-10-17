@@ -764,4 +764,14 @@
     </queues>
   </batch_system>
 
+  <!-- gadi is PBS -->
+  <batch_system MACH="gadi" type="pbs">
+    <directives>
+      <directive>-l ncpus={{ total_tasks }}</directive>
+    </directives>
+    <queues>
+      <queue walltimemax="10:00" default="true">normal</queue>
+    </queues>
+  </batch_system>
+
 </config_batch>
