@@ -3683,7 +3683,7 @@ This allows using a different mpirun command to launch unit tests
     <environment_variables>
       <env name="NETCDF_PATH">$ENV{NETCDF_BASE}</env>
       <env name="PKG_CONFIG_PATH">$ENV{PKG_CONFIG_PATH}:$ENV{NETCDF_BASE}/lib/Intel/pkgconfig</env>
-      <env name="ESMFMKFILE">/g/data/tm70/kr4383/esmf_build/esmf-8.3.0/lib/libg/Linux.intel.x86_64_medium.intelmpi.default/esmf.mk</env>
+      <env name="ESMFMKFILE">/g/data/tm70/kr4383/esmf_build/esmf-8.3.1/lib/libg/Linux.intel.x86_64_medium.intelmpi.default/esmf.mk</env>
     </environment_variables>
     <resource_limits>
       <resource name="RLIMIT_STACK">-1</resource>
