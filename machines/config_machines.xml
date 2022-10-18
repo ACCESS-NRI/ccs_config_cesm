@@ -3667,7 +3667,7 @@ This allows using a different mpirun command to launch unit tests
     <module_system type="module">
       <init_path lang="sh">/etc/profile.d/modules.sh</init_path>
       <init_path lang="csh">/etc/profile.d/modules.sh</init_path>
-      <cmd_path lang="python">/opt/Modules/v4.3.0/init/python.py</cmd_path>
+      <init_path lang="python">/opt/Modules/v4.3.0/init/python.py</init_path>
       <cmd_path lang="sh">module</cmd_path>
       <cmd_path lang="csh">module</cmd_path>
       <cmd_path lang="python">/opt/Modules/v4.3.0/bin/modulecmd python</cmd_path>
