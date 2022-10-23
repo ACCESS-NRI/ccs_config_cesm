@@ -14,6 +14,7 @@
     <checksum>../inputdata_checksum.dat</checksum>
   </server>
 
+  <!--
   <server>
     <protocol>wget</protocol>
     <address>ftp://ftp.cgd.ucar.edu/cesm/inputdata/</address>
@@ -25,12 +26,13 @@
   <server>
     <comment> ftp requires the python package ftplib </comment>
     <protocol>ftp</protocol>
-    <address>ftp.cgd.ucar.edu/cesm/inputdata</address>
+    <address>ftp.cgd.ucar.edu/cesm/inputdata/</address>
     <user>anonymous</user>
     <password>user@example.edu</password>
     <checksum>../inputdata_checksum.dat</checksum>
   </server>
-
+   -->
+  
   <server>
     <protocol>svn</protocol>
     <address>https://svn-ccsm-inputdata.cgd.ucar.edu/trunk/inputdata</address>
