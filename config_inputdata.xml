@@ -13,8 +13,12 @@
     <address>ftp://gridanon.cgd.ucar.edu:2811/cesm/inputdata/</address>
     <checksum>../inputdata_checksum.dat</checksum>
   </server>
-
-  <!--
+  
+  <server>
+    <protocol>svn</protocol>
+    <address>https://svn-ccsm-inputdata.cgd.ucar.edu/trunk/inputdata</address>
+  </server>
+  
   <server>
     <protocol>wget</protocol>
     <address>ftp://ftp.cgd.ucar.edu/cesm/inputdata/</address>
@@ -30,12 +34,6 @@
     <user>anonymous</user>
     <password>user@example.edu</password>
     <checksum>../inputdata_checksum.dat</checksum>
-  </server>
-   -->
-  
-  <server>
-    <protocol>svn</protocol>
-    <address>https://svn-ccsm-inputdata.cgd.ucar.edu/trunk/inputdata</address>
   </server>
 
   <server CLM_USRDAT_NAME="NEON">
